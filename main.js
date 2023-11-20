@@ -10,7 +10,15 @@ function marcar(celula) {
         jogador = "X"
     }
     render()
-    console.log(celula)
+
+    /* add cores nas celulas */
+    const cell = document.querySelectorAll('td')[celula];
+
+     if (jogador === "X") {
+    cell.className = 'red-text';
+    }else{
+    cell.className = 'green-text';
+    }
 }
 
 function render() {

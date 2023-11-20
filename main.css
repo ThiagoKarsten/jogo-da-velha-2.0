@@ -28,7 +28,6 @@ td{
 }
 
 td:hover{
-    background-color: lightgray;
     cursor: pointer;
 }
 
@@ -36,3 +35,12 @@ table{
     margin-left: 16px;
     margin-top: 16px;
 }
+
+.red-text {
+    background-color: red;
+  }
+  
+  .green-text {
+    background-color: green;
+  }
+  
